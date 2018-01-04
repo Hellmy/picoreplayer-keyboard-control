@@ -1,0 +1,18 @@
+# add following lines to the .ashrc
+
+alias 0="sh play-favorite.sh 0"
+alias 1="sh play-favorite.sh 1"
+alias 2="sh play-favorite.sh 2"
+alias 3="sh play-favorite.sh 3"
+alias 4="sh play-favorite.sh 4"
+alias 5="sh play-favorite.sh 5"
+alias 6="sh play-favorite.sh 6"
+alias +="sh volume-up.sh"
+alias ++="sh volume.sh +5"
+alias +++="sh volume.sh +10"
+alias -="sh volume-down.sh"
+alias --="sh volume.sh -5"
+alias ---="sh volume.sh -10"
+alias p="sh pause.sh"
+
+setleds -D +num
